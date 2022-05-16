@@ -55,7 +55,7 @@ pipelines:
       - step:
           name: Deploy to Production
           deployment: Production
-          trigger: manual
+#           trigger: manual
           clone:
             enabled: false
           script:
